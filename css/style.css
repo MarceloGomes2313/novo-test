@@ -5,6 +5,16 @@
     box-sizing: border-box;
   }
   
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+   
+  }
+  
   :root {
     --bg-color: #f8f9fa;
     --text-color: #212529;
@@ -25,19 +35,7 @@
     --toggle-bg: #535455;
     --toggle-border: #a1a1a1;
   }
-  
-  body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100vh;
-    position: relative;
-   
-  }
-  
-  
-  
-  
+    
   
   .page {
     min-height: 100vh;
