@@ -1,4 +1,11 @@
-:root {
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
     --bg-color: #f8f9fa;
     --text-color: #212529;
   
@@ -17,12 +24,6 @@
     --text-color: #a00707;
     --toggle-bg: #535455;
     --toggle-border: #a1a1a1;
-  }
-  
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
   }
   
   body {
